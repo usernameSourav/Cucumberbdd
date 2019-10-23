@@ -25,6 +25,9 @@ public class Base {
     	
     	driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
+		System.out.println("doing git work");
+		System.out.println("!!!!!!!!!!hope succesfull!!!!!!!");
+		
 		return driver;
 	}
 
